@@ -54,14 +54,24 @@
                                     <action selector="tapLogoutButton:" destination="lcE-Rc-SN2" eventType="touchUpInside" id="BH0-0b-WQf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSF-66-Iqh">
+                                <rect key="frame" x="26" y="31" width="333" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.84841317839999997" green="0.9430659065" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EXg-Ke-2bB"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="wSF-66-Iqh" id="Of8-kj-yiO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXh-tA-Fp3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="34"/>
+            <point key="canvasLocation" x="828" y="33.733133433283363"/>
         </scene>
     </scenes>
 </document>

@@ -9,9 +9,14 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
+    
+    var token = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        label.text = token
 
         // Do any additional setup after loading the view.
     }
